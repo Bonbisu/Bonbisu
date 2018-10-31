@@ -1,13 +1,16 @@
-h1 
+h1
 {
 color: blue;
 
 }
 
-h1.titulo 
+h1.titulo
 {
     color: red;
     text-align: center;
 }
 
-
+.container
+{
+  background-color: #b3ffcc
+}
