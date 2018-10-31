@@ -1,0 +1,13 @@
+h1 
+{
+color: blue;
+
+}
+
+h1.titulo 
+{
+    color: red;
+    text-align: center;
+}
+
+
