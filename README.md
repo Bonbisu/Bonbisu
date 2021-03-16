@@ -6,7 +6,6 @@
 ```javascript
 const bomber = {
   code: ['Javascript', 'Python', 'HTML', 'CSS', 'C'],
-  tools: [ 'React', 'ReactNative', 'Redux', 'NodeJS'],
-  learning_methods: ['youtube, stackOverflow, community']
+  tools: [ 'React', 'ReactNative', 'Nextjs', 'NodeJS']
 }
 ```
