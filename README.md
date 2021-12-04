@@ -4,7 +4,7 @@
 [![GitHub Bonbisu](https://img.shields.io/github/followers/Bonbisu?label=follow&style=social)](https://github.com/Bonbisu)
 
 ```ts
-const bomber: RandomIntests[] = {
+const bonbisu: RandomIntests[] = {
   code: [ 'TypeScript', 'Javascript', 'Python', 'HTML', 'CSS', 'C', 'Solidity' ],
   tools: [ 'Vue', 'React', 'ReactNative', 'Nextjs', 'NodeJS' ],
   design: [ 'Figma', 'Blender', 'SketchUp' ],
