@@ -4,28 +4,25 @@
 [![GitHub Bonbisu](https://img.shields.io/github/followers/Bonbisu?label=follow&style=social)](https://github.com/Bonbisu)
 
 ```ts
-const bonbisu: RandomIntests[] = {
-  code: [ 'TypeScript', 'Javascript', 'Python', 'HTML', 'CSS', 'C', 'Solidity' ],
-  tools: [ 'Vue', 'React', 'ReactNative', 'Nextjs', 'NodeJS' ],
-  design: [ 'Figma', 'Blender', 'SketchUp' ],
+interface Developer {
+  code: Skill[]
 }
 
-function getNewInterest<T>(interest: T): RandomIterest;
+interface SoftwareEngineer extends Developer {
+  [key: string]: Skill[]
+}
+
+const bonbisu: SoftwareEngineer = {
+  code: [ 'TypeScript', 'Javascript', 'Python', 'HTML', 'CSS', 'C', 'Solidity' ],
+  tools: [ 'Vue', 'React', 'Nextjs', 'NodeJS' ]
+}
+
+// Add some Random Skills
+bonbisu['design'] = [ 'Figma', 'Blender', 'SketchUp' ]
+bonbisu['other'] = [ 'Nature', 'Biking', 'Calisthenics', 'Gaming', 'Fishing' ] 
 
 ```
 
-```TypeScrypt error in ./README.md/resume.ts(7,14)
-Type 'unknown' is not assignable to type 'RandomInterests'
-
-> 7| const bomber: RandomIntests[] = {
-  8|               ^   
-   |      code: [ 'Javascript', 'Python', 'HTML', 'CSS', 'C' ],
-  9|      tools: [ 'Vue', 'React', 'ReactNative', 'Nextjs', 'NodeJS' ],
- 10|      design: [ 'Figma', 'Blender', 'SketchUp' ],
- 
- info Try getNewInterest to instance a new RandomInterest object
- 
-```
 
 ## 🔧 Technologies & Tools
 
