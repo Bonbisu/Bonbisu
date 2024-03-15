@@ -4,6 +4,8 @@
 [![GitHub Bonbisu](https://img.shields.io/github/followers/Bonbisu?label=follow&style=social)](https://github.com/Bonbisu)
 
 ```ts
+type Skill = string
+
 interface Developer {
   code: Skill[]
 }
@@ -20,6 +22,7 @@ const bonbisu: SoftwareEngineer = {
 // Add some Random Skills
 bonbisu['design'] = [ 'Figma', 'Blender', 'SketchUp' ]
 bonbisu['other'] = [ 'Nature', 'Biking', 'Calisthenics', 'Gaming', 'Fishing' ] 
+
 
 ```
 
